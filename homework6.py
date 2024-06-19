@@ -1,14 +1,14 @@
 # Задание
 # Работа со словарем
 my_dict = {'Андрей': 2896, 'Юрий': 1589}
-print(my_dict)
+print("My dict: ", my_dict)
 print(my_dict.get('Юрий', 'Такого нет'))
 print(my_dict.get('Филимон', 'Такого нет'))
 my_dict.update({'Петр': 2487, 'Светлана': 4589})
 print(my_dict)
 a = my_dict.pop('Петр')
-print(a)
-print(my_dict)
+print("удаляемое значение: ",a)
+print("измененный словарь: ",my_dict)
 
 # Работа с множеством
 my_set = {'Сорока', 456, 2, 2, 7, 7, True}
